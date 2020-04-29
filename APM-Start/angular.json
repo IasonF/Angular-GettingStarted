@@ -22,6 +22,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "/Users/jason/IdeaProjects/Angular-GettingStarted/APM-Start/src/assets/images/leaf_rake.png",
               "src/api"
             ],
             "styles": [

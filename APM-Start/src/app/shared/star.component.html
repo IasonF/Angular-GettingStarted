@@ -1,6 +1,10 @@
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="crop"
-     [style.width.px]="starWidth"
-     [title]="rating">
+     [style.width.px]=starWidth
+     [title]="rating"
+     (click)="onClick()">
   <div style="width: 75px">
     <span class="fa fa-star"></span>
     <span class="fa fa-star"></span>
